@@ -22,7 +22,11 @@ public class PostApiController {
     }
 
     @PostMapping("/post01")
-    public void post01(@RequestBody PostRequestDto requestData){
+    public void post01(@RequestBody PostRequestDto requestData) {
+        System.out.println(requestData);
+    }
+    @PostMapping("/post02")
+    public void post02(@RequestBody PostRequestDto requestData){
         System.out.println(requestData);
     }
 }
