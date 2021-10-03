@@ -26,4 +26,8 @@ public class PostApiController {
         System.out.println(requestData);
     }
 
+    @PostMapping("/post02")
+    public void post02(@RequestBody PostRequestDto requestData) {
+        System.out.println(requestData);
+    }
 }
