@@ -17,6 +17,7 @@ public class PostApiController {
 
         requestData.forEach((key, value) -> {
             System.out.println("key : " + key);
+            System.out.println("key : " + key);
             System.out.println("value : " + value);
             System.out.println("value : " + value);
         });
